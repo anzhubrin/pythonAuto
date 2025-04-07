@@ -6,9 +6,12 @@ from selenium import webdriver
 def browser_management():
     browser.config.base_url = "https://www.saucedemo.com"
 
-    driver_options = webdriver.ChromeOptions()
-    driver_options.add_argument('--headless')
-    browser.config.driver_options = driver_options
+    # headless mode
+    # driver_options = webdriver.ChromeOptions()
+    # driver_options.add_argument('--headless')
+    # browser.config.driver_options = driver_options
 
+    # before test
     yield
+    # after test
     browser.quit()
