@@ -1,3 +1,7 @@
+### generate allure report
+```
+allure serve tests/allure-results
+```
 ### headless mode
 ```
 driver_options = webdriver.ChromeOptions()

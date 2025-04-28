@@ -1,4 +1,5 @@
 from time import sleep
+import allure
 from pages.login_page import LoginPage
 
 
